@@ -18,7 +18,7 @@ function SectionFinal() {
   <h1 className="text-7xl mt-12 bowlby-one-regular text-white">
     order online or <br /> come visit us today
   </h1>
-  <button className="mt-8 bg-[#D1EF53] hover:bg-[#B3A0CD] text-black text-md px-8 py-4 duration-300 cursor-pointer bowlby-one-regular">
+  <button className="cursor-pointer mt-8 bg-[#D1EF53] hover:bg-[#B3A0CD] text-black text-md px-8 py-4 bowlby-one-regular">
     GET STARTED
   </button>
 </div>

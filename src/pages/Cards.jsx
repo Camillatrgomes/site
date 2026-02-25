@@ -24,7 +24,7 @@ return (
         <h1 className="text-6xl bowlby-one-regular text-[#1E1E1E]">THE BURGER <br /> ABOVE ALL <br /> BURGERS</h1>
         <div className="flex flex-col items-center justify-start ">
         <p className="text-[#1E1E1E] p-12 text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec ornare neque.</p>
-        <button className="bg-white text-black border-4 text-md p-4 shadow- duration-300 cursor-pointer bowlby-one-regular"> ABOUT US
+        <button className="bg-white hover:bg-[#e1e0e4] text-black border-4 text-md p-4 duration-300 cursor-pointer bowlby-one-regular"> ABOUT US
         </button>
     </div>
     </div>
@@ -37,7 +37,7 @@ return (
             <img src={menu.img} alt="" className="w-full object-cover" />
              <div className="bg-[#1E1E1E] h-50 w-130 p-10 bottom-6 left-6 rounded-2xl flex-col items-center absolute">
                 <h2 className="text-4xl bowlby-one-regular text-white">{menu.label}</h2>
-                <p className="text-[#B3A0CD] text-2xl bowlby-one-regular pt-3">{menu.label2}</p>
+                <a href="#" className="text-[#B3A0CD] text-2xl bowlby-one-regular pt-3">{menu.label2}</a>
             </div>
         </div>
         
