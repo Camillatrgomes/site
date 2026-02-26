@@ -1,19 +1,19 @@
 function Footer() {
   return (
-    <footer className="mt-48 px-6">
-      <div className="bg-[#B3A0CD] rounded-3xl max-w-7xl mx-auto px-12 py-16">
-        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-12">
+    <footer className="mt-16 sm:mt-32 md:mt-48 px-4 sm:px-6 pb-6">
+      <div className="bg-[#B3A0CD] rounded-3xl max-w-7xl mx-auto px-6 sm:px-12 py-10 sm:py-16">
+        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 sm:gap-12">
 
-          {/* Logo / Nome */}
-          <h1 className="text-3xl bowlby-one-regular text-[#1E1E1E]">
+          {/* Logo */}
+          <h1 className="text-2xl sm:text-3xl bowlby-one-regular text-[#1E1E1E]">
             Burger Heaven
           </h1>
 
           {/* Links */}
-          <div className="flex gap-16">
+          <div className="flex gap-10 sm:gap-16">
 
             <div className="flex flex-col gap-2 text-[#1E1E1E]">
-              <p className="font-bold ">More</p>
+              <p className="font-bold">More</p>
               <a href="#" className="hover:underline">About</a>
               <a href="#" className="hover:underline">Menu</a>
               <a href="#" className="hover:underline">Locations</a>
@@ -30,8 +30,8 @@ function Footer() {
           </div>
         </div>
 
-        {/* Linha inferior */}
-        <div className="mt-12 border-t border-[#1E1E1E]/20 pt-6 text-center text-sm text-[#1E1E1E]">
+        {/* Direitos autorais */}
+        <div className="mt-8 sm:mt-12 border-t border-[#1E1E1E]/20 pt-6 text-center text-sm text-[#1E1E1E]">
           © {new Date().getFullYear()} Burger Heaven. All rights reserved.
         </div>
       </div>

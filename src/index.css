@@ -3,7 +3,17 @@
 :root {
   color: rgba(255, 255, 255, 0.87);
   background-color: #1E1E1E;
-  margin: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0 16px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 .bowlby-one-regular {
