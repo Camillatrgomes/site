@@ -1,16 +1,21 @@
-# React + Vite
+Sobre o Burger Heaven
+--------------------------------------
+O Burger Heaven é um projeto de site institucional desenvolvido com React e Tailwind CSS, criado com o objetivo de revisitar e consolidar os fundamentos do React com JavaScript, além de explorar bibliotecas de animação aplicadas à experiência do usuário.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto simula a presença digital de uma hamburgueria, com foco em layout, componentização e interações de interface, buscando uma navegação fluida, moderna e visualmente atrativa.
 
-Currently, two official plugins are available:
+Durante o desenvolvimento, foram trabalhados conceitos como:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Componentização e reutilização de componentes
 
-## React Compiler
+- Gerenciamento de estado com useState para controle de interações da interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Estruturação de layout com Tailwind CSS
 
-## Expanding the ESLint configuration
+- Integração de animações com GSAP e React Bits
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Boas práticas de organização e legibilidade do código
+
+O Burger Heaven serviu como um exercício prático para reforçar a base do desenvolvimento front-end com React, demonstrando como pequenos detalhes de interação e animação podem elevar a experiência do usuário sem comprometer a simplicidade do projeto.
+
+<img width="1747" height="919" alt="Captura de Tela 2026-03-02 às 16 02 38" src="https://github.com/user-attachments/assets/941cf8b9-7d12-4779-b7b9-304d654d11d5" />
